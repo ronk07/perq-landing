@@ -90,7 +90,15 @@ export function PricingColumn({
                 </span>
               </>
             ) : (
-              <span className="text-6xl font-bold">Free</span>
+              <>
+                <span className="text-muted-foreground text-2xl font-bold">
+                  $
+                </span>
+                <span className="text-6xl font-bold">0</span>
+                <span className="text-muted-foreground text-lg font-semibold">
+                  /mo
+                </span>
+              </>
             )}
           </div>
           <div className="flex min-h-[40px] flex-col">

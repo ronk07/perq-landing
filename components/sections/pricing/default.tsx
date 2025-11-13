@@ -40,7 +40,7 @@ export default function Pricing({
       name: "Growth",
       icon: <User className="size-4" />,
       description: "For restaurants ready to scale traffic and revenue.",
-      price: 49,
+      price: 79,
       priceNote:
         "Includes everything in Starter, plus unlimited deals and advanced automation.",
       cta: {
