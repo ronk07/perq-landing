@@ -30,21 +30,21 @@ export default function Features({
       description:
         "Launch exclusive deals in minutes. Reach thousands of nearby customers instantly through the Perq app. You control discounts, limits, and timing — we handle the distribution.",
       icon: <LayoutGrid className="size-5 stroke-1" />,
-      image: "https://via.placeholder.com/800x600/1a1a1a/ffffff?text=Dashboard+Preview+1",
+      image: "/dealss.png",
     },
     {
-      title: "Analytics & Insights",
+      title: "AI-Powered Insights and Recommendations",
       description:
         "Real-time performance tracking. See exactly who redeems your deals, when they visit, and which promotions drive the most revenue.",
       icon: <Pencil className="size-5 stroke-1" />,
-      image: "https://via.placeholder.com/800x600/1a1a1a/ffffff?text=Dashboard+Preview+2",
+      image: "/aiss.png",
     },
     {
       title: "Customer Profiles",
       description:
         "Understand your customers deeply. Perq automatically builds taste profiles, visit patterns, and loyalty insights so you can personalize offers.",
       icon: <Settings className="size-5 stroke-1" />,
-      image: "https://via.placeholder.com/800x600/1a1a1a/ffffff?text=Dashboard+Preview+3",
+      image: "/customerss.png",
     },
   ],
   className,
@@ -110,12 +110,12 @@ export default function Features({
           </div>
 
           {/* Image - on right */}
-          <div className="relative w-full overflow-hidden rounded-xl border border-border/50 bg-gradient-to-br from-[#3d3126] to-[#1a1a1a] shadow-2xl">
+          <div className="relative w-full overflow-hidden rounded-xl border border-border/50 bg-card shadow-2xl">
             <div className="relative aspect-[16/10] w-full">
               <img
                 src={tabs[activeTab].image}
                 alt={tabs[activeTab].title}
-                className="h-full w-full object-cover transition-all duration-500 mix-blend-overlay opacity-90"
+                className="h-full w-full object-cover transition-all duration-500"
                 key={activeTab}
               />
             </div>
